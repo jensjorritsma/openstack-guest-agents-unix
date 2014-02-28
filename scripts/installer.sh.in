@@ -93,7 +93,7 @@ if [ -d $dataversdir ] ; then
 fi
 
 if [ ! -d $datadir ] ; then
-    mkdir $datadir
+    mkdir -p $datadir
 fi
 
 # Copy our version subdirectory to the target
